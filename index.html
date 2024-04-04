@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb2e86f6c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header" class="Home">
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="image/download.png" alt="">
+                    <!-- <p>LDET</p> -->
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div id="Home">
+            <div class="header-text">
+                <p> <span style="color: hsl(335, 96%, 52%);">Hello</span></p>
+                <h1>I'AM <span style="color: #ff004f;">Ldetu</span> Agegnehu</h1>
+                <p><span style="color: #e423a7;">Web Developer</span></p>
+                <p>and Graphics Designer</p>
+                
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <!-- about -->
+    <div id="About">
+        <div class="container_about">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="image/1703569066777.jpg" alt="" style="width: 350px;">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="hello">Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Quas dignissimos a obcaecati et illum inventore 
+                        aperiam doloribus expedita asperiores nulla provident 
+                        atque iure animi non corrupti, id quidem ducimus aliquid 
+                        minima perferendis? Omnis hic laborum animi quia! Obcaecati 
+                        tempore numquam, exercitationem, eveniet ipsum voluptatum 
+                        repellendus nam veritatis nihil voluptates repudiandae voluptas 
+                        ab eligendi. Nihil ullam reprehenderit alias aspernatur culpa </p>
+                        <div class="tab_title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab"  id="skills">
+                            <ul>
+                                <li> <span>Web Development</span><br>Web app Development</li>
+                                <li> <span>Graphics design</span><br>Adobe photoshop interface Graphics Design,<br> illustrator interface Logo Design </li>
+                            </ul>
+                        </div>
+                       <div class="tab-contents" id="experience">
+                       
+                        <ul>
+                            <li><span>2019-current</span><br>Web app Development</li>
+                            <li><span>2021-current</span><br>Graphics design, <br> Logo Design</li>
+                            <li><span>2020-2023</span><br>Join Ethio Telecom</li>
+                        </ul>
+
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                             <li><span>2019-2024</span><br>Bachelor degree of <br>Software Engineering</li>
+                            <li><span>2021</span><br>Graphics Design at Alex Institute</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="Service">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Design</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, laborum 
+                        quaerat rem ratione </p>
+                        <a href="#" >learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h1>Graphics Design</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, laborum 
+                        quaerat rem ratione </p>
+                        <a href="#" >learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h1>App Design</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, laborum 
+                        quaerat rem ratione </p>
+                        <a href="#" >learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- portfolio -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sb-title"> My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="image/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social media </h3>
+                        <p>The app connects you the talented people  around the world.</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App </h3>
+                        <p>The app connects you the talented people  around the world.</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you the talented people  around the world.</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+
+    </div>
+    <!-- contact -->
+    <div  id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ldetuagegnehu21@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+251905203995</p>
+                    <div class="social-icon">
+                       <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a> 
+                       <a href="https://telegram/@Ldet1.com"><i class="fa-brands fa-telegram"></i></a> 
+                       <a href="https://"><i class="fa-brands fa-instagram"></i></a> 
+                       <a href="https://"><i class="fa-brands fa-whatsapp"></i></a> 
+                    </div>
+                    <a href="image/tome  (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact_right">
+                    <form action="">
+                        <input type="text" name="Name" id="" placeholder=" Enter your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Enter your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"  class="btn btn2">Submit</button>
+                    </form>
+                    <p id="msg">Hello</p>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>copy right &COPY; Birth Day 2022 GC. </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents ");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link" );
+            }
+            for (tabcontent  of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const msg=document.getElementById("msg")
+        msg.innerHTML = "Message sent successfully"
+        setTimeout (function () {
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    </script>
+    
+</body>
+</html>
